@@ -1,0 +1,8 @@
+<isdecorate template="common/layout/page">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/whereToBuy.css');
+    </isscript>
+  <isslot id="whereToBuy" context="global" description="" context-object="" preview-url="" />
+</isdecorate>

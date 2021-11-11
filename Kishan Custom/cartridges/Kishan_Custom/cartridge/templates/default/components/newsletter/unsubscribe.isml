@@ -1,0 +1,31 @@
+<isdecorate template="common/layout/page">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/f9d5ca0d93.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+        assets.addJs('/js/unsubscribe.js');
+        assets.addCss('/css/newsletter.css');
+    </isscript>
+
+   <input type="hidden" id="call" name="" value="${URLUtils.url('Newsletter-call')}">
+
+
+    <div class="Unsubscribe">
+
+            <div class ="heading">Unsubscribe from the Conair Newsletter</div>
+            <div class ="sub-heading">To unsubscribe, please enter your email address:</div>
+            
+            <div class="getInput">
+                <form class="form-inline" method="GET">
+                    <input type="email"  id = "input" class="getInput1" aria-label="Search" value="">
+                </form>
+            </div>
+            <div class="message" id="msg"></div>
+            <div class="btn">
+                <button type="submit" class="btn1" onclick="buttonClicked()">Unsubscribe</button> 
+            </div> 
+    </div>
+</isdecorate>

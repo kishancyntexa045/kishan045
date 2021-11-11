@@ -1,0 +1,99 @@
+<isdecorate template="common/layout/page2">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/f9d5ca0d93.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/productTile.js');
+        assets.addCss('/css/warranty.css');
+        assets.addJs('/js/warranty-script.js');
+    </isscript>
+    
+   <input type="hidden" id="send_mail" name="" value="${URLUtils.url('warranty-sendMail')}">
+
+    <div class="warranty">
+        <div class="head">
+            <div class ="warranty-text">In Warranty Replacement</div>
+            <div class ="info">Conair only replaces products that are under warranty. To submit a return, please fill out required fields below so we can process your replacement/return faster.</div>
+        </div>       
+
+        <form class="form" id="form_elem" method="POST"  enctype="multipart/form-data" onsubmit="return false;">
+            
+            <div class='input-grpLeft'>
+                <input type="text" class="inp" id="fname" name="fname" placeholder="First Name"/>
+                    <div class="e_fname"></div>
+            </div>
+
+            <div class='input-grpRight'>
+                    <input type="text" class="inp" id="lname" name="lname" placeholder="Last name" />
+                        <div class="e_lname"></div>
+            </div>
+
+            <div class='input-grpAddress'>
+                <input type="text" class="inp"  id="addr" name="address" placeholder="Address" />
+                        <div class="e_addr"></div>
+            </div>
+
+            <div class='input-grpLeft'>
+                <input type="text" class="inp" id="city" name="city" placeholder="City" />
+                    <div class="e_city"></div>
+            </div>
+
+            <div class='input-grpRight'>
+                <input type="text" class="inp" id="zip" name="zip" placeholder="Zip" />
+                        <div class="e_zip"></div>
+            </div>
+
+            <div class='input-grpLeft'>
+                <input type="email" class="inp" id="email" name="email" placeholder="Email"/>
+                    <div class="e_email"></div>
+            </div>
+
+            <div class='input-grpRight'>
+                <input type="tel" class="inp" id="phone" name="phone" placeholder="Phone"/>
+                        <div class="e_phone"></div>
+            </div>
+
+            <div class='input-grpAddress'>
+                <textarea id="subject" class="inp" name="subject" placeholder="Reason for Return"></textarea>
+                    <div class="e_subject"></div>
+            </div>
+
+
+            <div class='input-grpLeft'>
+                <input type="text" class="inp" id="product_color" name="product_color" placeholder="Product Color"/>
+                    <div class="e_product_color"></div>
+            </div>
+
+            <div class='input-grpRight'>
+                <input type="text" class="inp" id="model_number" name="model_number" placeholder="Model Number"/>
+                    <div class="e_model_number"></div>
+            </div>
+
+            <div class="upload">
+                <div class="upload-Text">Do you have a receipt? (Max upload size: 2MB)*
+                    <label for="chkYes" class="radio-inline">
+                        <input type="radio" id="chkYes" name="optradio"> Yes
+                    </label>
+                    <label for="chkNo" class="radio-inline">
+                        <input type="radio" id="chkNo" name="optradio"> No
+                    </label>
+                    <label class="upload-btn" for="upload">
+                        <input type="file" id="upload" name="upload_file" disabled="disabled" hidden/> Upload Receipt
+                    </label>
+                </div>
+            </div>
+                <div class="upload_error" >error 8</div>
+
+              <div class="btn">
+                <button id ="btnsub" type="submit" class="btn1" >Submit Request to Return</button> 
+            </div> 
+
+  </form>
+
+    </div>
+</isdecorate>
+

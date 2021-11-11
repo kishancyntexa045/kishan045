@@ -1,0 +1,68 @@
+<isdecorate template="common/layout/page">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/metalcraft.css');
+    assets.addJs('/js/addtocart.js');
+</isscript>
+
+<div class="backImage1">
+<img src="${URLUtils.webRoot() + '/images/metalcraft-no-promo-slider-desktop.jpg'}" alt="img" class="img1" />
+</div>
+<img src="${URLUtils.webRoot() + '/images/metalcraft-no-promo-mobile.jpg'}" alt="img" class="img1Mobile" />
+
+
+<div class="bg-black1 setheight">
+<div class="head2">${Resource.msg('Heading2','metalcraft', null)}</div>
+    <div class="colgroup row-1">
+        <div class="col image">
+            <img src="${URLUtils.webRoot() + '/images/metalcraft-high-performance-tools-on-black-image1.jpg'}" alt="img" class="img2a" />
+        </div>
+        <div class="col story">
+            <h3 class="orange">${Resource.msg('Crafted','metalcraft', null)}</h3>
+            <p>${Resource.msg('Carefully','metalcraft', null)}</p>
+        </div>
+    </div>
+    <div class="colgroup row-2">
+        <div class="col image">
+            <img src="${URLUtils.webRoot() + '/images/metalcraft-high-performance-tools-on-black-image2.jpg'}" alt="img" class="img2b" />
+        </div>	
+        <div class="col story">
+            <h3 class="orange">${Resource.msg('Sleek','metalcraft', null)}</h3>
+            <p> ${Resource.msg('These','metalcraft', null)}  </p>
+            <p>
+            ${Resource.msg('Inspired','metalcraft', null)} 
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div class="backImage">
+    <img src="${URLUtils.webRoot() + '/images/creekman-desktop.jpg'}" alt="img" class="img3" />
+    <img src="${URLUtils.webRoot() + '/images/creekman-mobile.jpg'}" alt="img" class="img3Mobile" />
+
+</div>
+
+<div>
+    <isslot id="productDisplay" context="global" description="" context-object="" preview-url="" />
+</div>
+
+<section id="mc-video">
+	<div class="inner mx-auto">
+        <div class="video-container">
+            <iframe class="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+        </div>
+	</div>
+</section>
+
+<section id="mc-zoomph">
+    <div class="socialHead">
+        <h2 class="uppercase">${Resource.msg('Social','metalcraft', null)}</h2>
+    </div>
+    <iframe class="zoomph-widget" src="https://visuals.zoomph.com/Visuals/?id=2c7oMCCoXceV31C5rYXfmg_2_2" frameborder="0" scrolling="yes" __idm_id__="761142273"></iframe>
+</section> 
+
+
+</isdecorate>

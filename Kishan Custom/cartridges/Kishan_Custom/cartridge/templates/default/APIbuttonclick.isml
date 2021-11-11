@@ -1,0 +1,32 @@
+<isdecorate template="common/layout/page">
+
+<isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addJs('/js/APIjs.js');
+        assets.addCss('/css/APIscss.css');
+ </isscript>
+
+<div 
+<h1>Enter a Movie Name:-</h1>
+
+ <label for="fname"></label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <button id="btn1" > Submit!</buttom>
+  <button id="btn2" hidden="hidden"></button>
+</div>
+
+<div id="tabelid" class="column">
+<h2>Movie List</h2>
+<!--<img src="https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg" > -->
+<table id="t1" >
+
+ </table>
+</div>
+
+<div id="tabel1" class="column1">
+<h2>Movie Detail</h2>
+<p class="dd" id = "json_to_html" style = "font-size: 15px; font-weight: bold;"> 
+        </p>
+</div>
+
+</isdecorate>

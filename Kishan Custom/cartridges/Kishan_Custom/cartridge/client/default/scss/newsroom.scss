@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+ input[type="input"]::placeholder { 
+                
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 175.7%;
+}
+
+
+
+.SearchBox .search {
+width: 75%;
+height: 52px;
+position:relative;
+margin:auto;
+height: 2.5em;
+display: flex;
+border: 1px solid #000000;
+box-sizing: border-box;
+
+}
+
+
+.SearchBox .searchButton {
+width: 40px;
+height: 50px;
+text-align: center;
+color: #000;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 22px;
+position: absolute;
+right: 0%;
+outline: none;
+}
+
+
+.SearchBox .searchTerm {
+width: 80%;
+position: absolute;
+padding: 5px;
+outline: none;
+}
+
+.categoryTitle{
+font-size:40px;
+line-height:50px;
+font-weight:700;
+}
+
+.search-desc{
+font-size:16px;
+line-height:24.11px;
+font-weight:400;
+}
+
+.outerDivImg{
+display:none;
+}
+
+.articleHeading{
+font-size:25px;
+line-height:31.25px;
+font-weight:700;
+
+}
+
+.articlePara{
+font-size:16px;
+line-height:24.11px;
+font-weight:400;
+
+}
+
+.articleContent{
+padding-left: 1.5rem;
+}
+
+.articleContainer{
+padding-bottom: 2rem;
+}
+
+.singleArticle{
+padding-top: 2rem ;
+}
+
+@media only screen and (min-width: 834px)  and (max-width: 1440px){
+
+.SearchBox .search {
+  width: 368px;
+  height: 52px;
+}
+
+.articleImg{
+  height: 150px;
+  width: 206px;
+  border: 1px solid #000000;
+  
+}
+.outerDivImg{
+  display:inline;
+  padding-left: 3rem;
+}
+
+.articleContent{
+  padding-left: 1.5rem;
+}
+
+.articleContainer{
+  padding-bottom: 4rem;
+}
+.singleArticle{
+  padding-top: 4rem ;
+}
+.articlePara{
+  padding-top: 1rem;
+}
+
+}
+
+
+@media only screen and (min-width: 1440px){
+
+
+.SearchBox .search {
+  width: 368px;
+  height: 52px;
+}
+
+.articleImg{
+height: 176px;
+width: 241px;
+border: 1px solid #000000;
+
+}
+.outerDivImg{
+display:inline;
+padding-left: 12rem;
+}
+
+.articleContent{
+padding-left: 3rem;
+}
+
+.articleContainer{
+padding-bottom: 3rem;
+}
+.singleArticle{
+padding-top: 5rem ;
+}
+.articlePara{
+padding-top: 1rem;
+}
+
+}  
+
+.font40px {
+font-size: 40px
+}
+.font24px {
+font-size: 24px
+}
+.nrDiv {
+width:  329px
+}
+
+img, video {
+max-width: 100%;
+height: 100%;
+}
+.nrTileDiv {
+width: 329px;
+}
+.nrImgDiv {
+width: 329px;
+height: 240px;
+background: blue;
+}
+
+.nrArticleTileDiv {
+width: 155px;
+}
+.nrArticleImgDiv {
+width: 155px;
+height: 116px;
+background: blue;
+}
+.nrArticleDivRow {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 834px) {
+.nrDiv {
+width:  670px;
+}
+
+.nrArticleDiv{
+width: 1135px;
+}
+
+img, video {
+max-width: 100%;
+height: 100%;
+}
+.nrTileDiv {
+width: 320px;
+}
+.nrImgDiv {
+width: 320px;
+height: 260px;
+}
+.nrDivRow {
+display: grid;
+justify-content: space-between;
+}
+
+.nrArticleTileDiv {
+width: 327px;
+}
+.nrArticleImgDiv {
+width: 327px;
+height: 238px;
+}
+}
+@media only screen and (min-width: 1440px) {
+.nrDiv {
+width:  1046px;
+}
+
+img, video {
+max-width: 100%;
+height: 100%;
+}
+
+.font40px {
+font-size: 40px;
+}
+.nrTileDiv {
+width: 480px;
+}
+.nrImgDiv {
+width: 480px;
+height: 350px;
+}
+.nrDivRow {
+display: grid;
+justify-content: space-between;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.nrArticleDiv {
+width:  1046px;
+}
+}

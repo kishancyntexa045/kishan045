@@ -1,0 +1,38 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<isinclude template="/components/modules" />
+    <div id="product-intro">
+    <input type="hidden" id="add-to-cart-url" name="" value="${URLUtils.url('Cart-AddProduct')}">
+
+    <isloop items="${slotcontent.content}" var="product" status="loopState">
+    <div class="colgroup internal">
+        <div class="col product-image ">
+           <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', false, 'swatches', false)}"/>
+        </div>
+        <div class="col product-meta product-meta-right" >
+        <div>
+            <span class="product-title">${product.name} </span> 
+            <span class="product-model slate-blue">Model 910</span>
+            <span class="product-price">${product.price}</span>
+            
+            
+                        <span class="product-qty">
+                <label for="">Quantity </label>
+                <span class="product-qty-ui number">
+                    <a class="qty  changequantity minus" data-change='minus' rel="item-910" data-id="${product.ID}" >-</a>
+                    <input id="product-quantity" class="quantity-selected product-qty-ui ${product.ID} "  name="item[910]" type="text" value="1">
+                    <a class="qty changequantity plus" data-change='plus' rel="item-910" data-id="${product.ID}" >+</a>
+                </span>
+                <a class="atc primary-btn primary-btn-border add-to-cart-global"  data-model="910" data-category="Skin Care + Beauty - Facial Brushes" data-image="910-smoothwrap-infinitipro-by-conair-dryer-main.png" data-price="59.99" data-title="Smoothwrap™ InfinitiPRO by Conair®" value="ADD TO CART" data-pid="${product.ID}" >ADD TO CART</a>
+            </span>
+            
+            <span class="product-obo">
+<a onclick="ga('send', 'event', 'Product Page', 'WTB - Channel Advisor', '910'); page.toggleModal(this,event,1); page.getRetailers(this);" data-modal="modal-channel-advisor" data-models="910" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" role="button">Other Buying Options</a>
+            </span>
+
+      
+        </div><!-- .col -->
+    </div><!-- .colgroup -->
+</div>
+</isloop>
+</div>

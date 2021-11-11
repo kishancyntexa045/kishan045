@@ -1,0 +1,615 @@
+<isdecorate template="common/layout/page">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/productRecall.css');
+    </isscript>
+    
+    <div class="hidden pb-20 lg:flex">
+        <div class="pl-40 pr-40 ">
+            <div class="background-gray">
+                <h1 class="text-white font-bold text-center font-Raleway font-25px line-height-31px">Product Recall</h1>
+            </div>
+            <div class="flex">
+                <div class="inline pl-10" >
+                    <div class="pt-16 ">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1 " >
+                                <p class="font-bold font-Raleway font-16px line-height-19px ">Model Numbers </p>
+                                <p class="font-Raleway font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Raleway font-16px line-height-19px">Number of Screw Holes  </p>
+                                <p class="font-Raleway font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Raleway font-16px line-height-19px" >Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="inline pl-12 pr-6 font-Raleway font-16px line-height-24px" >
+                    <div class="pt-16 pb-6">
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hidden pb-20 md:flex lg:hidden">
+        <div class=" ">
+            <div class="" >
+                <h1 class=" text-center font-bold font-Raleway font-25px line-height-31px" >Product Recall</h1>
+            </div>
+            <div class="flex">
+                <div class="inline pl-10" >
+                    <div class="pt-16 ">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Model Numbers </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Number of Screw Holes  </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="inline pl-12 pr-6" >
+                    <div class="pt-16 pb-6 font-Roboto font-16px line-height-21px">
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="flex pb-20 md:hidden ">
+        <div class=" ">
+            <div class="" >
+                <h1 class=" text-center font-bold font-Raleway font-25px line-height-31px" >Product Recall</h1>
+            </div>
+            <div class="">
+                <div class=" " >
+                    <div class="pt-16 flex justify-center">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px " >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Model Numbers </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Number of Screw Holes  </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px">Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class=" pl-6 pr-6" >
+                    <div class="pt-16 pb-6 font-Roboto font-16px line-height-21px" >
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+   <div class="hidden pb-20 lg:flex">
+        <div class="pl-40 pr-40 ">
+            <div class="background-gray">
+                <h1 class="text-white font-bold text-center font-Raleway font-25px line-height-31px">Product Recall</h1>
+            </div>
+            <div class="flex">
+                <div class="inline pl-10" >
+                    <div class="pt-16 ">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1 " >
+                                <p class="font-bold font-Raleway font-16px line-height-19px ">Model Numbers </p>
+                                <p class="font-Raleway font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Raleway font-16px line-height-19px">Number of Screw Holes  </p>
+                                <p class="font-Raleway font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Raleway font-16px line-height-19px" >Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Raleway font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="inline pl-12 pr-6 font-Raleway font-16px line-height-24px" >
+                    <div class="pt-16 pb-6">
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="hidden pb-20 md:flex lg:hidden">
+        <div class=" ">
+            <div class="" >
+                <h1 class=" text-center font-bold font-Raleway font-25px line-height-31px" >Product Recall</h1>
+            </div>
+            <div class="flex">
+                <div class="inline pl-10" >
+                    <div class="pt-16 ">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Model Numbers </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Number of Screw Holes  </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="inline pl-12 pr-6" >
+                    <div class="pt-16 pb-6 font-Roboto font-16px line-height-21px">
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="flex pb-20 md:hidden ">
+        <div class=" ">
+            <div class="" >
+                <h1 class=" text-center font-bold font-Raleway font-25px line-height-31px" >Product Recall</h1>
+            </div>
+            <div class="">
+                <div class=" " >
+                    <div class="pt-16 flex justify-center">
+                        <img class="w-300px border-1px height-300px" src="image" />
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px " >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Model Numbers </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >259BCAUT, 259BCR, 259BCRUL, 259GUTR,<br>
+                                    259GUTT, 259N, 259NP, 259PR, 259UL, 259X,<br>
+                                    259XD, 259XR and 279
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px" >Number of Screw Holes  </p>
+                                <p class="font-Roboto font-16px line-height-19px" >(on Back of Handle of Hair Dryer)</p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >One (1) screw hole
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-8 flex justify-center">
+                        <div class="w-300px border-1px" >
+                            <div class="text-center background-gray1" >
+                                <p class="font-bold font-Roboto font-16px line-height-19px">Product Code starting with  </p>
+                            </div>
+                            <div class="">
+                                <p class="text-center pt-4 pb-4 font-Roboto font-12px line-height-16px" >V05692 or V10290
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class=" pl-6 pr-6" >
+                    <div class="pt-16 pb-6 font-Roboto font-16px line-height-21px" >
+                        <p class="inline font-bold">October 15, 2013. Stamford,</p>
+                        <p class="inline">CT-Conair Corporation today announced a voluntary recall of the following products. Consumers should stop using recalled products immediately unless otherwise instructed. Conair Corporation has notified the U.S. Consumer Product Safety Commission of this voluntary recall.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Name of Product:</p>
+                        <p class="inline">Infiniti PRO by Conair® Hair Dryer (259/279 Series)</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Units:</p>
+                        <p class="inline">About 570,000</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Distributor:</p>
+                        <p class="inline">Conair Corporation, of Stamford, Conn.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Hazard:</p>
+                        <p class="inline">The small heater coils in the barrel of the hair dryer can come into contact with adjacent coils that can create an electrical short. As a result of the electrical short, small hot coils can project out of the dryer posing a burn or fire hazard.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Incidents/Injuries:</p>
+                        <p class="inline">Conair has received approximately 19 consumer reports of hot coils exiting the hair dryer, including minor property damage (one fire reported) and 3 minor burn injuries to consumers who sought medical attention.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Description:</p>
+                        <p class="inline">This voluntary recall involves certain Infiniti PRO by Conair® Hair Dryers, 259 and 279 Series. Recalled units have the model numbers below, one (1) screw hole on the back of the hair dryer handle and product codes listed below. Hair dryers with 2 screw holes on back of the hair dryer handle are not subject to this recall. Infiniti PRO by Conair® Hair Dryer, 259 or 279 Series, Subject to Recall</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Sold at:</p>
+                        <p class="inline">Mass merchandisers, drug stores, department stores, beauty and specialty stores and on the Internet from approximately August 2010 to August 2013 for about $24.99 to $39.99</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Manufactured in:</p>
+                        <p class="inline">China</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Remedy:</p>
+                        <p class="inline">Consumers should immediately stop using a hair dryer that is subject to this voluntary recall and contact Conair to receive a free replacement hair dryer.</p> 
+                    </div>
+                    <div class="pb-6">
+                        <p class="inline font-bold">Customer Contact:</p>
+                        <p class="inline">or additional information, contact Conair at (877) 339-2534 between 7:00 a.m. and 11:00 p.m. ET Monday through Friday, and 9:00 a.m. and 5:30 p.m. ET Saturday or Sunday</p> 
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</isdecorate>

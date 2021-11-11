@@ -1,0 +1,119 @@
+/*  CSS file for the Contact Section in Customer Support */ 
+
+
+#cs-wrapper * {
+    box-sizing: border-box;
+    font-size: 16px;  
+}
+
+#cs-wrapper {
+    text-align: center; 
+}
+
+#cs-wrapper h2 {
+    font-size: 2rem; 
+}
+
+.cs-section {
+    display: block; width: 100%; 
+    max-width: 1040px; 
+    padding: 40px; 
+    margin: 0px auto; 
+    text-align: center; 
+}
+
+/*  Warranty
+    --------------------------------- */ 
+#cs-warranty {}
+
+/*  Contact
+    --------------------------------- */ 
+#cs-contact {}
+
+
+#fieldMessageWrapper,
+#fieldMessageWrapper * {
+    text-align: left !important; 
+}
+
+#frmCustomerSupport ul {
+    display: block; 
+    list-style-type: none;
+    padding: 0px; margin: 0px; 
+}
+#frmCustomerSupport li {
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-size: 0; 
+    width: 100%; 
+}
+
+#frmCustomerSupport li > span {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 100%; 
+}
+
+
+form#frmCustomerSupport input[type=submit],
+form#frmCustomerSupport input[type=button],
+form#frmCustomerSupport button {
+    border: 1px solid #0066d8;
+    background-color: #0066d8; 
+    color: #fff; 
+    text-transform: uppercase; 
+    cursor: pointer !important; 
+    text-align: left; 
+    padding: 10px 15px;     
+    font-weight: bolder; 
+    width: 100%; max-width: 100%; 
+}
+
+
+
+/*  Email Info
+    --------------------------------- */ 
+#cs-emailInfo {}
+#cs-emailinfo-inner {
+    width: 100%; 
+    max-width: 550px; 
+    margin: 0px auto; 
+}
+
+
+/*  Bootstrap v5.0 Breakpoints
+    ------------------------------------------------------------------------------- */ 
+
+/*  
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/ 
+
+@media all and (min-width: 768px){
+    #frmCustomerSupport li:nth-child(1) > span {
+        width: calc((100% - 0.5rem) / 2); 
+        margin-left: 0.5rem; 
+    }
+    #frmCustomerSupport li:nth-child(1) > span:nth-child(1){
+        margin-left: 0px; 
+    }
+    #frmCustomerSupport li:nth-child(2) > span:nth-child(1) {
+        width: 250px;   
+    }
+    #frmCustomerSupport li:nth-child(2) > span:nth-child(2){
+        width: calc(100% - 250px); 
+    }  
+    
+}
+
+@media all and (min-width: 576px){
+    form#frmCustomerSupport input[type=submit],
+    form#frmCustomerSupport input[type=button],
+    form#frmCustomerSupport button {
+        width: 100%; max-width: 300px; 
+    }    
+}

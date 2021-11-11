@@ -1,0 +1,123 @@
+<isdecorate template="common/layout/page">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/unbound.css');
+    assets.addCss('/css/unboundG1.css');
+    assets.addCss('/css/unboundG2.css');
+    assets.addJs('/js/unbound.js');
+
+ </isscript>
+
+<iscomment> pink banner </iscomment>
+<div id="ub-pink-banner" aria-hidden="true" data-acsb-hidden="true"></div>
+
+<iscomment> headre and nav bar </iscomment>
+<header id="ub-header">
+    <img src="${URLUtils.webRoot() + '/images/unbound/unbound-logo.svg'}" alt="Unbound logo" role="presentation">
+       <nav id="ub-nav" class="inner" role="presentation">
+			<a class="hamburger" id="ham"  data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" aria-hidden="true" data-acsb-hidden="true" role="button" data-acsb-textual-ops="menu"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Menu " aria-hidden="false" data-acsb-hidden="false"></span><span aria-hidden="true" data-acsb-hidden="true" data-acsb-force-hidden="true"></span></a>
+			<div id="collection-mobile-nav" role="navigation" aria-label="Page Menu">
+				<ul data-acsb-menu="ul">
+					<li data-acsb-menu="li" data-acsb-menu-root="true"><a href="#ub-story" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true" data-acsb-menu="a" data-acsb-menu-root-link="true" data-acsb-tooltip="Use ←/→ to navigate">The Unbound Story</a></li>
+					<li data-acsb-menu="li" data-acsb-menu-root="true"><a href="#ub-collection" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true" data-acsb-menu="a" data-acsb-menu-root-link="true">View the Collection</a></li>
+					<li data-acsb-menu="li" data-acsb-menu-root="true"><a id="wtb-button" title="UNBOUND™ CORDLESS AUTO CURLER (CR510)" onclick="ga('send', 'event', 'Unbound Collection', 'Channel Advisor', 'CR510'); page.toggleModal(this,event,1); page.getRetailers(this);" data-modal="modal-channel-advisor" data-models="CR510" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" data-acsb-menu="a" role="button" data-acsb-menu-root-link="true">Where To Buy</a></li>
+					<iscomment> <li><a href="co/89/unbound-microsite/513#ub-gallery">Social Gallery</a></li> </iscomment>
+				</ul>
+			</div>
+		
+    </nav>
+</header>
+
+
+<iscomment> video </iscomment>
+	<section id="mc-video">
+		<div class="inner mx-auto">
+			<div class="video-container">
+				<iframe class="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+			</div>
+		</div>
+	</section>
+
+
+
+<iscomment> story </iscomment>
+<section id="ub-story" class="inner" data-acsb-main="true" role="main">
+    <h1 class="ag913bbinzmj" style="font-family: felicita, santy, satisfy, sans-serif;
+    text-transform: uppercase;
+    color: #1595F9;
+    text-align: center;
+	font-weight:100;" data-acsb-title="true">No cords. No limits. Just beautiful.</h1>
+	<ul>
+		<li class="">
+			<span class="ub-story-thumb offset-border pink"><span class="square-content"><img src="${URLUtils.webRoot() + '/images/unbound/group-shot-story1.jpg'}" alt="Silver and gold tube bottles"></span></span>
+			<span class="ub-story-text-container">
+				<span class="ub-story-title" role="heading" aria-level="4">Break free</span>
+				<span class="ub-story-description">from boring with a new line of cordless styling tools that make you look and feel amazing. You don’t have to plug them in, so you can enjoy beauty in motion.</span>
+			</span>
+		</li>
+				<li class="">
+			<span class="ub-story-thumb offset-border blue"><span class="square-content"><img src="${URLUtils.webRoot() + '/images/unbound/unbound-petite-flatlay-story2-v3.jpg'}" alt="Silver iphone 6 beside pink lipstick"></span></span>
+			<span class="ub-story-text-container">
+				<span class="ub-story-title" role="heading" aria-level="4">Anytime, Anywhere</span>
+				<span class="ub-story-description">Use them in your bathroom. Your bedroom. Your BFF's bedroom. In the car. At the job. The gym. Indoors or out.</span>
+			</span>
+		</li>
+	</ul>
+</section>
+
+<h3 id="ub-callout">They go wherever you go. And you go — WOW!</h3>
+
+<iscomment> THE Collection </iscomment>
+
+<isslot id="unboundProductSlot" context="global" description="" context-object="" preview-url="" />
+
+<iscomment> technology </iscomment>
+<section id="ub-technology">
+	<div class="inner">
+		<div class="ub-tech-copy">
+			<h2>UNBOUND® TECHNOLOGY <span class="cursive"><i class="cursive-i">I</i><i class="cursive-t">t</i><i class="cursive-apos">’</i>s a <i class="cursive-t">t</i>urn-on:</span></h2>
+			<p>Sometimes boundaries make sense. But not when you’re styling your hair. That’s when you want to be unbound. No cords. No restrictions. No inhibitions. Sky's the limit with these high-performance styling tools that make you look and feel your best. Or you will, as soon as you try them!</p>
+		</div>
+		<div class="ub-tech-image">
+			<img src="${URLUtils.webRoot() + '/images/unbound/unbound-technology.png'}" alt="UNBOUND™ Auto Curler">
+		</div>
+	</div>
+</section>
+
+
+<section id="ub-articles-wrapper" class="inner">
+		<h2>Unbelievable?</h2>
+		<p>Get Unbound® and discover the difference beauty in motion can make in your life.</p>
+		<ul id="ub-articles">
+							<li class="colgroup">
+					<a href="co/89/discover-the-power-and-freedom-of-cordless-hair-styling/517" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+						<span class="article-image">
+							<img src="${URLUtils.webRoot() + '/images/unbound/article-unbound-the-collection.jpg'}" alt="Discover the Power and Freedom of Cordless Hairstyling" role="presentation">
+						</span>
+						<span class="article-meta">
+							<span class="article-meta-title"><em>Discover the Power and Freedom of Cordless Hairstyling</em></span>
+							<span class="article-meta-summary">Style anytime, anywhere with the Unbound® collection.</span>
+						</span>
+					</a>
+				</li>
+							<li class="colgroup" style="margin-top: 20px;">
+					<a href="co/89/how-use-the-conair-unbound-auto-curler/518" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+						<span class="article-image">
+							<img src="${URLUtils.webRoot() + '/images/unbound/article-unbound-how-to-thmb.jpg'}" alt="How to Use the Conair® Unbound® Auto Curler" role="presentation">
+						</span>
+						<span class="article-meta">
+							<span class="article-meta-title"><em>How to Use the Conair® Unbound® Auto Curler</em></span>
+							<span class="article-meta-summary">Get a perfect curl every time, automatically.</span>
+						</span>
+					</a>
+				</li>
+					</ul>		
+	</section>
+
+
+<span id="ub-media-gallery-overlay-mask" aria-hidden="true" ></span>
+
+</isdecorate>

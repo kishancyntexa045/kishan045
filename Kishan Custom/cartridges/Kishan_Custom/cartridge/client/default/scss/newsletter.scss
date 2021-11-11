@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+.Unsubscribe{
+    margin: auto;
+    display: block;
+    height: auto;
+    /* top: 200px; */
+    height: 600px;
+    top: 46px;
+    position: relative;
+  }
+
+
+
+.heading{
+    position:relative;
+    margin: auto;
+    width: 75%;
+    background: #E5E5E5;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.sub-heading{ 
+    position:relative;
+    margin: auto;
+    width: 65%;
+    top: 20px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18.75px;
+text-align: center;
+
+color: #000000;
+}
+
+.getInput{
+    width: 32%;
+    position:relative;
+    margin:auto;
+    top:50px;
+    height:65px;
+    display: flex;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.getInput1 {
+    width: 100%;
+    position: absolute;
+    padding: 12px;
+    outline: none;
+  }
+  
+ .getInput1:focus{
+    color: #000;
+  }
+
+.btn{
+    position:relative;
+    margin:auto;
+    top:67px;
+    display: flex;
+}
+.message{
+  display:none;
+
+  position:relative;
+  margin: auto;
+  width: 60%;
+  top: 60px;
+
+  font-family: 'Roboto', sans-serif;
+  font-style:normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: center;
+
+}
+
+  .btn1{
+
+    margin:auto;
+    position:relative;
+    width: 27%;
+
+    height:65px;
+
+    background: #111010;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+
+  .btn1:focus{
+    color: #ffffff;
+  }
+
+    
+@media only screen and (min-width: 550px) and (max-width: 670px) { 
+    /* For mobile phones: */
+    
+    .getInput{
+        width: 65%;
+        position:relative;
+        margin:auto;
+        top:50px;
+        height:65px;
+        display: flex;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+
+    
+  .btn1{
+
+    margin:auto;
+    position:relative;
+    width: 55%;
+
+    height:65px;
+
+    background: #111010;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  }
+  
+@media only screen and (max-width: 550px) {
+    /* For mobile phones: */
+    
+    .getInput{
+        width: 80%;
+        position:relative;
+        margin:auto;
+        top:50px;
+        height:65px;
+        display: flex;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+    }
+
+    
+  .btn1{
+
+    margin:auto;
+    position:relative;
+    width: 70%;
+
+    height:65px;
+
+    background: #111010;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+  }
+  }
+  

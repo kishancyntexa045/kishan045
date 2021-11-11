@@ -1,0 +1,53 @@
+<isdecorate template="common/layout/page2">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+<script src="https://use.fontawesome.com/f9d5ca0d93.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/faq.css');
+        assets.addJs('/js/faq.js');
+    </isscript>
+      
+    <input type="hidden" id="clickedMethod" name="" value="${URLUtils.url('Faq-clickedMethod')}">
+     <input type="hidden" id="searchMethod" name="" value="${URLUtils.url('Faq-searchMethod')}">
+    <div class="Container Faq" id="Faq">
+        <div id="header" class="head">
+            <div class ="faq-text">Frequently Asked Questions</div>
+            <div class ="searchText">Search by category to find answers to your questions below:</div>
+           
+            <div class="SearchBox">
+                <div class="search">
+                  <form id="searchForm" class="form-inline"  method="GET">
+		            <input class="searchTerm" aria-label="Search" id="categoryName" title="3 characters minimum" type="input" minlength="3"/>
+                        <button type="submit" id="submit" class="searchButton"><i class="fa fa-search"></i></button> 
+                    </form>
+                </div>
+            </div>
+            
+        </div> 
+        <div id="categoryHeader" class = "categoryHeader">
+        <div id ="categoryText" class="categoryText">
+        </div>
+        </div>
+        <div class="categories">
+            <div class="rows row" >
+                <isloop items="${pdict.categoryList}" var="categoryList" status="e">
+                    <div id="${categoryList.title}"  class="cool-3 category categoryList">${categoryList.title}</div>
+                </isloop>
+            </div>
+        </div> 
+   
+    
+<div class="related" id="related">
+  <button type="submit" id= "showCategoryDiv" class="backButton">< Back to All FAQ’s</button> 
+   <iscomment> <div id="element" class="element"></div>  </iscomment>
+   <div class="containerFaq">
+   <div class="accordion element" id="faqElement">
+   </div>
+  </div>
+ </div> 
+</div>
+</isdecorate>
+
+

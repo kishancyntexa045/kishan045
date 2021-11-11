@@ -1,0 +1,164 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+<isdecorate template="common/layout/page">
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addJs('/js/quantity.js');
+    assets.addJs('/js/addtocart.js');
+    assets.addCss('/css/smoothwrap.css');
+</isscript>
+
+<div class="intro-banner">
+    <div class="inner1 maxwidth">
+        <iscomment> <img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-logo.png" alt="Smoothwrap smooth . balanced . healthy looking .. Black and white checkered illustration"> </iscomment>
+        <img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-logo.png'}" alt="Smoothwrap smooth . balanced . healthy looking .. Black and white checkered illustration">
+
+        <p>A New Drying Experience</p>
+        <iscomment> <ins><img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/powered-by-infinitipro-logo.png" alt="Powered by infinitipro conair. Black and white abstract illustration"></ins> </iscomment>
+        <ins><img src= "${URLUtils.webRoot() + '/images/smoothwrap/powered-by-infinitipro-logo.png'}" alt="Powered by infinitipro conair. Black and white abstract illustration"></ins>
+
+    </div>
+</div>
+
+<div class="intro-video">
+    <div class="inner maxwidth-video">
+        <iframe class="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<iscomment><isinclude template="slots/product/smoothWrapProduct"/></iscomment>
+<isslot id="smoothWrapProducts" context="global" description="" context-object="" preview-url="" />
+
+<div id="product-summary" data-acsb-overflower="true">
+    <div class="colgroup maxwidth inner5">
+        <div class="col">
+            <h4>A New Drying Experience.</h4>
+                <p>
+                We didn't invent style. But for over 60 years, we've been in front of millions of mirrors, helping women invent their own. 
+                </p>
+                <p>
+                Smoothwrap™ opens up new styling possibilities with its cutting-edge Dual Ion Therapy that rebalances the natural charge of your hair, leaving it feeling healthy and conditioned. 
+                </p>
+                <p>
+                This is style, reinvented. 
+                </p>
+                <p>
+                This is <ins class="swd-blue-logo"><img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-blue-logo.png'}" alt="Smoothwrap™" role="presentation"></ins>
+                </p>
+        </div>
+        <div class="col">
+            <iscomment> <img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-new-drying-experience.png" alt="White and black hair blower"> </iscomment>
+            <img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-new-drying-experience.png'}" alt="White and black hair blower">
+        </div>
+    </div>
+</div>
+
+<iscomment> 2 BLACK DIV </iscomment>
+
+<div id="claims">
+    <div class="colgroup inner6 maxwidth">
+        <ul>
+                        <li class="claim">
+                <span class="value">87%</span>
+                <span class="desc">87% surveyed reported an improvement in how their hair felt within five days after using SmoothWrap™ <sup>*</sup></span>
+                <span class="legal"><sup>*</sup> Based on a third-party survey of 177 users provided with product through a sampling program</span>
+            </li>
+                        <li class="claim">
+                <span class="value">94%</span>
+                <span class="desc">94% of women agree that Dual Ion Therapy makes SmoothWrap™ a better product vs. a standard dryer <sup>*</sup></span>
+                <span class="legal"><sup>*</sup> Conair claim based on third-party study. September 2020, among 105 women aged 18-55 within the<br>United States</span>
+            </li>
+                        <li class="claim">
+                <span class="value">95%</span>
+                <span class="desc">95% surveyed reported less frizz after using SmoothWrap™ <sup>*</sup></span>
+                <span class="legal"><sup>*</sup> Based on a third-party survey of 219 users provided with product through a sampling program</span>
+            </li>
+                        <li class="claim">
+                <span class="value">93%</span>
+                <span class="desc">93% surveyed said their hair felt healthier after using SmoothWrap™ <sup>*</sup></span>
+                <span class="legal"><sup>*</sup> Based on a third-party survey of 219 users provided with product through a sampling program</span>
+            </li>
+                        <li class="claim">
+                <span class="value">50%</span>
+                <span class="desc">SmoothWrap™ dries hair up to<br>50% faster <sup>*</sup></span>
+                <span class="legal"><sup>*</sup> When compared to other Conair DC motor hair dryer and style models</span>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+    <iscomment> GALLERY </iscomment>
+
+
+<div class="gallery maxwidth">
+    <img src="${URLUtils.webRoot() + '/images/smoothwrap/Gallery.jpg'}" alt="2 woman in black shirt" class="gallery1">
+</div>
+
+<div id="gallery-lockup">
+    <div class="inner2 maxwidth">
+    <h4>A New Treatment for All Hair Types</h4>
+        <div class="text-copy">
+                Smoothwrap focuses on maximizing a more balanced absorption of conditioning ions. The positive and negative ions bring an equilibrium to your hair, giving it volume and body with less frizz, leaving your hair feeling smooth with luxurious shine. Ceramic Technology helps minimize heat damage for the best healthy-looking hair.
+        </div><!-- .text-copy -->
+    </div><!-- .inner -->
+</div>
+
+    <iscomment> FEATURES </iscomment>
+
+<div id="features">
+    <div class="colgroup inner3 maxwidth">
+        <div class="col">
+            <iscomment> <img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-910-features.png" alt="White hair blower on white textile"> </iscomment>
+                <img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-910-features.png'}" alt="White hair blower on white textile">
+
+        </div>    
+        <div class="col">
+            <h4>Features</h4>
+            <ul>
+                                    <li id="feature-0"><strong role="heading" aria-level="6">Leaves Your Hair Feeling Healthier</strong>Dual Ion Therapy is a revolutionary treatment to help restore the natural balance of your hair</li>
+                                    <li id="feature-1"><strong role="heading" aria-level="6">A Faster Drying Experience</strong>Powerful and lightweight high-torque motor along with 1875 watts gives you professional styling and drying performance</li>
+                                    <li id="feature-2"><strong role="heading" aria-level="6">Helps Minimize Heat Damage</strong>Ceramic Technology provides even heat to promote fast drying, not overdrying</li>
+                                    <li id="feature-3"><strong role="heading" aria-level="6">Create Volume &amp; Body with Less Frizz</strong>Positive and Negative Ions work together to reduce your flyaways without leaving your hair flat. Hair is luxurious and full bodied</li>
+                                    <li id="feature-4"><strong role="heading" aria-level="6">Customize the Settings</strong>6 total heat and speed combinations give you more freedom to create different styles for every hair type</li>
+                                    <li id="feature-5"><strong role="heading" aria-level="6">Highest Performance</strong>Easy to clean, removable rear filter lets you remove any lint buildup quickly to maximize the airflow</li>
+                            </ul>
+        </div>
+    </div><!-- .colgroup -->
+    <div class="colgroup inner3 maxwidth">
+        <ul id="feature-images">
+            <li id="feature-img-0">
+                <iscomment> <span class="image"><img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-features-1.jpg" alt="Cool. Metallic illustration and glazed"></span> </iscomment>
+                <span class="image"><img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-features-1.jpg'}" alt="Cool. Metallic illustration and glazed"></span>
+                
+                <span class="text"><strong role="heading" aria-level="6">Hold Your Look</strong><p>The cool shot trigger sends a blast of cool air to lock your style in place.</p></span>
+            </li>
+            <li id="feature-img-1">
+                <iscomment> <span class="image"><img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-features-2.jpg" alt="Black and white heart illustration"></span> </iscomment>
+                <span class="image"><img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-features-2.jpg'}" alt="Black and white heart illustration"></span>
+
+                <span class="text"><strong role="heading" aria-level="6">Luxurious Smooth, Straight Looks</strong><p>Salon-quality concentrator included for focused airflow where you want it.</p></span>
+            </li>
+            <li id="feature-img-2">
+                <iscomment> <span class="image"><img src="https://www.conair.com/assets/images/public/content/articles/epp/swd910/smoothwrap-features-3.jpg" alt="White ceramic bowl with black plastic hair comb"></span> </iscomment>
+                <span class="image"><img src="${URLUtils.webRoot() + '/images/smoothwrap/smoothwrap-features-3.jpg'}" alt="White ceramic bowl with black plastic hair comb"></span>
+
+                <span class="text"><strong role="heading" aria-level="6">Natural Waves &amp; Curls</strong><p>Specially designed diffuser included that helps deliver the dual conditioning ions to optimize natural texture.</p></span>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="video2">
+    <div class="inner maxwidth-video">
+        <iframe class="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+<section class="zoomph-container section">
+    <div class="zoomph-title"><h3>The Social Buzz</h3></div>
+    <iframe id="zoomph-9ed920ba" class="zoomph-widget" src="https://visuals.zoomph.com/Visuals/?id=h48QJL6449VrWqqI7Ny_1nw_2_2" frameborder="0" scrolling="yes" aria-label="Zoomph Iframe" data-acsb-navigable="true" data-acsb-force-navigable="true" data-acsb-now-navigable="true"></iframe> 
+</section>
+
+</isdecorate>

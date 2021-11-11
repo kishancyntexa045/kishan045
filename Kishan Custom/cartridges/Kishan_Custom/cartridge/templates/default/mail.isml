@@ -1,0 +1,59 @@
+<iscontent type="multipart/mixed;boundary=------------000001030701020908040900" charset="UTF-8" compact="false"> 
+<isset name="fileContent" value="${pdict.upload_file}" scope="page"/>
+--------------000001030701020908040900
+type:"text/html";charset=UTF-8
+
+'Here are the Detail
+ fname :-           ${pdict.fname} 
+ lname :-           ${pdict.lname} 
+ address :-         ${pdict.address} 
+ city :-            ${pdict.city} 
+ zip :-             ${pdict.zip} 
+ email :-           ${pdict.email} 
+ phone :-           ${pdict.phone} 
+ subject :-         ${pdict.subject} 
+ product_color :-    ${pdict.product_color} 
+ model_number :-    ${pdict.model_number}
+ ${request.getHttpParameterMap()}
+--------------000001030701020908040900
+type : image/png;charset=ISO-8859-1
+Content-Description : WhereToBuyDesktop.png
+Content-Disposition : attachment; filename="WhereToBuyDesktop.png"; size= ${fileContent.length}; 
+creation-date="${(new Date()).toISOString()}"; modification-date="${(new Date()).toISOString()}"
+${fileContent}
+--------------000001030701020908040900--
+
+
+<iscomment> <iscontent type="text/html;boundary=a" charset="UTF-8">
+
+<isset name="fileContent" value="${pdict.upload_file}" scope="page"/>
+
+<html>
+<head></head>
+<body>
+ <div style="font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; font-size: x-small; color: Black;">
+    fname :-           ${pdict.fname}  <br/>
+    lname :-           ${pdict.lname}  <br/>
+    address :-         ${pdict.address}  <br/>
+    city :-            ${pdict.city}  <br/>
+    zip :-             ${pdict.zip}  <br/>
+    email :-           ${pdict.email}  <br/>
+    phone :-           ${pdict.phone}  <br/>
+    subject :-         ${pdict.subject}  <br/>
+    product_color :-    ${pdict.product_color}  <br/>
+    model_number :-    ${pdict.model_number}
+
+ </div>
+</body>
+</html>
+
+
+<iscontent type="image/png;boundary=------------000001030701020908040900" charset="ISO-8859-1">
+
+<isset name="fileContent" value="${pdict.upload_file}" scope="page"/>
+--------------000001030701020908040900
+Content-Description : WhereToBuyDesktop.png
+Content-Disposition : attachment; filename="WhereToBuyDesktop.png"; size= ${fileContent.length}; 
+creation-date="${(new Date()).toISOString()}"; modification-date="${(new Date()).toISOString()}"
+${fileContent}
+--------------000001030701020908040900-- </iscomment>

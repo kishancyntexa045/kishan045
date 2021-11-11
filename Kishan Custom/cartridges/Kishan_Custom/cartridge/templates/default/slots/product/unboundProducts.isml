@@ -1,0 +1,25 @@
+<isinclude template="/components/modules" />
+
+<section id="ub-collection">
+		<div class="inner" data-acsb-main="true" role="main">
+			<h1 class="a09ufcpq2inax theCollectionHeading" data-acsb-title="true">The Collection</h1>
+			<ul id="ub-products">
+                <isloop items="${slotcontent.content}" var="product" status="loopState">
+
+                    <li class="pink" id="product-CR510" data-model="CR510">
+                        <a href="${URLUtils.url('Product-Show', 'pid', product.ID )}" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+                            <span class="product-link"><strong>Learn More</strong></span>
+                            
+                            <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', false, 'swatches', false)}"/>
+                             <a href="${URLUtils.url('Product-Show', 'pid', product.ID )}" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+                                <span class="product-description m-0 mb-3" aria-hidden="false" data-acsb-hidden="false" data-acsb-given-sr-only="true" data-acsb-sr-only="true" data-acsb-force-visible="true">${product.shortDescription}</span>
+                            </a>
+                           
+                        </a>
+                    </li>
+
+                </isloop>
+            </ul>
+		</div>	
+	</section>
+

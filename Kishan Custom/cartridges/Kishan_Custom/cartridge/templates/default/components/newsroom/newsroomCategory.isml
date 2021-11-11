@@ -1,0 +1,59 @@
+<isdecorate template="common/layout/page">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"/>
+<script src="https://use.fontawesome.com/f9d5ca0d93.js"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"/>
+
+    <isscript>
+        var assets = require('*/cartridge/scripts/assets.js');
+        assets.addCss('/css/newsroom.css');
+        assets.addJs('/js/allNewsroom.js');
+    </isscript>
+<input type="hidden" id="searchMethod" name="" value="${URLUtils.url('NewsroomCategory-searchMethod')}"/>
+<div class="">
+  <div class="catecoryContainer">
+  <div  class="categoryHeader">
+    <div id="categoryTitle" class="categoryTitle text-center pt-4">
+        ${pdict.categoryName} Articles
+        <p class="search-desc pt-4">Searching for something specific?</p>
+        </div>
+        <div class="SearchBox pt-4">
+            <div class="search">
+              <form id="searchForm" class="form-inline"  method="GET">
+		          <input class="searchTerm" aria-label="Search" placeholder="Enter keywords here" id="searchTerm"  type="input" minlength="3"/>
+                  <button type="submit" id="submit" class="searchButton"><i class="fa fa-search" style="font-size: 15px;"></i></button> 
+                </form>
+             </div>
+        </div>
+  </div>
+  <div class="allArticleContainer">
+     <div class="Articles">
+     <div class="singleArticle">
+      <isloop items="${pdict.Articles}" var="Article" status="e">
+      <div class="flex articleContainer">
+      <div class="outerDivImg ">
+        <img src="${Article.custom.articleImage.absURL}" class="articleImg" alt="category.png" width="100%" height="100%"/>
+       </div>
+        <div class="articleContent inline">
+        <a href="https://dev05-na-conair.demandware.net/on/demandware.store/Sites-us-conair-Site/default/ContentRender-${Article.custom.contentAssetId}">
+        <h1 class="articleHeading">${Article.custom.articleHeading}</h1>
+        <p class="articlePara">${Article.custom.articleDescription}</p> 
+        </a>
+        </div>
+      </div>  
+        </isloop>  
+      </div>       
+     </div>
+    </div>
+
+    <div  class="searchArticleContainer">
+     <div  class="Articles">
+     <div id="Articles" class="singleArticle">
+     </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+
+
+</isdecorate>

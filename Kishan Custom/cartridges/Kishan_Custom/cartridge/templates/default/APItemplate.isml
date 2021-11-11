@@ -1,0 +1,37 @@
+<isdecorate template="common/layout/page">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search here!</title>
+</head>
+
+
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addJs('/js/APIcall.js'); 
+    assets.addCss('/css/APIscss.css');
+</isscript>
+
+
+ <div class="search-cont">
+        <input type="text" class="box-search" id="fname" placeholder="Search">
+        <button class="button-search" id="hello">submit</button>
+        <button id="hello1" hidden="hidden"></button>
+   </div>
+
+<div>
+         <table id = "emp-table">
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>id</th>
+              <th>Poster</th>
+            </tr>
+         </table>
+
+         <table id ="t1">
+
+         </table>
+</div>
+
+</isdecorate>

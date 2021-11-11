@@ -1,0 +1,392 @@
+<isdecorate template="common/layout/page">
+
+
+<iscomment> <link rel="stylesheet" type="text/css" href="https://www.conair.com/assets/bundled/css/global-e83bab98b488c4afffbd091df64c1674.css" media="all"> </iscomment>
+<iscomment> <link rel="stylesheet" type="text/css" href="https://www.conair.com/assets/bundled/css/globalRWD-5f427ee78392bc0283f9b366fcfc7ea7.css" media="all"> </iscomment>
+<iscomment> <link rel="stylesheet" type="text/css" href="https://www.conair.com/assets/bundled/css/local-ad1bac74c2e5857e73d142de19d9e822.css" media="all"> </iscomment>
+
+<link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick-theme.css"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="https://www.conair.com/assets/bundled/js/global-816525cd9b7ab9b4bcee53c293f09409.js"></script>
+
+<script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+        $('.carousel-this').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: true
+        });
+    });
+  </script>
+
+
+
+
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/knotdr.css');
+    assets.addCss('/css/knotdrG1.css');
+    assets.addCss('/css/knotdrG2.css');
+    assets.addJs('/js/knotdr.js');
+    assets.addJs('/js/addtocart.js');
+    
+   </isscript>
+
+<iscomment> ========================carasoul======================== </iscomment>
+
+<section id="carousel" class="section" role="region" data-acsb-carousel="true" data-acsb-force-visible="true" aria-label="Carousel">
+    <ul id="hp-carousel" class="carousel-this" data-pagination="hp-carousel-pagination" data-alt-breakpoint="640" data-auto-rotate="1" data-acsb-overflower="true" style="opacity: 1; visibility: visible;" aria-hidden="false" data-acsb-hidden="false" data-alt-check="false">
+        <li data-default="assets/images/public/homepage/carousel/knot-dr-slide-1.jpg" data-alt="assets/images/public/homepage/carousel/knot-dr-slide-1.jpg" data-acsb-overflower="true">
+            <a href="c/1c11/the-knot-dr-allinone-dryer-brush/1264" target="_blank" onclick="ga('send', 'event', 'Home Page', 'Carousel Banners', 'Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R)');" data-acsb-tooltip="Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R) | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+                 <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img src="${URLUtils.webRoot() + '/images/knotdr/knot-dr-slide-1.jpg'}" alt="Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R)" border="0">
+            </a>
+        </li>
+        <li data-default="assets/images/public/homepage/carousel/knot-dr-slide-2.jpg" data-alt="assets/images/public/homepage/carousel/knot-dr-slide-2.jpg" data-acsb-overflower="true" aria-hidden="false" data-acsb-hidden="false">
+            <a href="c/1c11/the-knot-dr-allinone-dryer-brush/1264" target="_blank" onclick="ga('send', 'event', 'Home Page', 'Carousel Banners', 'Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R)');" data-acsb-tooltip="Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R) | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true">
+                <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window the knot dr all-in-one dryer brush by infinitipro by conair " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img src="${URLUtils.webRoot() + '/images/knotdr/knot-dr-slide-2.jpg'}" alt="Learn more about InfinitiPRO by Conair® The Knot Dr.® All-In-One Dryer Brush (BC116R)" border="0">
+            </a>
+        </li>
+        <li data-default="assets/images/public/homepage/carousel/knot-dr-slide-3.jpg" data-alt="assets/images/public/homepage/carousel/knot-dr-slide-3.jpg" aria-hidden="true" data-acsb-hidden="true">
+            <a href="c/1g11/the-knot-dr-allinone-smoothing-dryer-brush/1397" target="_blank" onclick="ga('send', 'event', 'Home Page', 'Carousel Banners', 'Learn more about InfinitiPRO by Conair® The Knot Dr.® Smoothing Dryer Brush (BC120)');" data-acsb-tooltip="Learn more about InfinitiPRO by Conair® The Knot Dr.® Smoothing Dryer Brush (BC120) | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img src="${URLUtils.webRoot() + '/images/knotdr/knot-dr-slide-3.jpg'}" alt="Learn more about InfinitiPRO by Conair® The Knot Dr.® Smoothing Dryer Brush (BC120)" border="0">
+            </a>
+        </li>
+    </ul>
+    
+</section>
+
+
+    <iscomment> ===============PRODUCTS===================== </iscomment>
+
+<div id="produtcs" style="margin-top:40px">
+
+    <div class="productRow">
+        <div class="productItem productItemBGLeft">
+            <div class="productItemInner purpleColor">
+                <img src="${URLUtils.webRoot() + '/images/knotdr/kd_all_in_one_dryer_brush.jpg'}" alt="Web image of a group shot of the Volumizing Pik attachment, the BC116R All-In-One Dryer Brush, and the BC120 All-In-One Smoothing Dryer Brush">
+            </div>
+        </div>
+        <div class="productItem productItemNoBgRight">
+            <div class="productItemInner titleDesc">
+                <div class="productTitleWrapper purpleColor">
+                    <p class="productTitle mar" role="heading" aria-level="4">ALL-IN-ONE DRYER BRUSH</p>
+                </div>
+                    <p class="productDesc" style="margin-top:20px">How do you detangle, dry, style, and volumize your hair – all with one tool? The Knot Dr.® knows. Ideal for all hair types, these styling essentials are the cure that banishes bad hair days forever.</p>
+            </div>
+        </div>
+    </div>
+		
+        
+    <div class="productRow">
+        <div class="productItem productItemNoBgRight">
+            <div class="productItemInner titleDesc">
+                <div class="productTitleWrapper lightRed">
+                    <p class="productTitle  mar" role="heading" aria-level="4">DRY + STYLE</p>
+                </div>
+                    <p class="productDesc" style="margin-top:20px">Do both in one step! Easily remove the brush attachment to quickly pre-dry your hair. Once excess moisture is gone, place the attachments back on the handle to create salon-caliber styles. Use the cool shot to lock in your style!</p>
+            </div>
+        </div>
+        <div class="productItem productItemBGRight">
+            <div class="productItemInner lightRed">
+                <img src="${URLUtils.webRoot() + '/images/knotdr/kd_dry_style.jpg'}" alt="Web image of the 4 steps to use the product: Dry, Detangle, Volumize, and Smooth">
+            </div>
+        </div>
+    </div>
+         
+    <div class="productRow">
+        <div class="productItem productItemBGLeft">
+            <div class="productItemInner cyan">
+                <img src="${URLUtils.webRoot() + '/images/knotdr/kd_detangling_bristles.jpg'}" alt="Web image showing a zoom image of the top of the head of the barrel and the detangling bristles up-close">
+            </div>
+        </div>
+        <div class="productItem productItemNoBgRight">
+            <div class="productItemInner titleDesc">
+                <div class="productTitleWrapper cyan">
+                    <p class="productTitle  mar" role="heading" aria-level="4">DETANGLING BRISTLES</p>
+                </div>
+                    <p class="productDesc" style="margin-top:20px">Each brush has the optimum number of Flexalite™ bristles – just the right number, spaced just the right way, for painless detangling.</p>
+            </div>
+        </div>
+    </div>
+            
+    <div class="productRow">
+        <div class="productItem productItemNoBgRight">
+            <div class="productItemInner titleDesc">
+                <div class="productTitleWrapper limeColor">
+                    <p class="productTitle  mar" role="heading" aria-level="4">IMPRESSIVE DRYING POWER</p>
+                </div>
+                    <p class="productDesc" style="margin-top:20px" role="heading" aria-level="5">Powerful ion generator and 1000 watts of power dry hair quickly and leave hair silky smooth and frizz free.</p>
+            </div>
+        </div>
+        <div class="productItem productItemBGRight">
+            <div class="productItemInner limeColor">
+                <img src="${URLUtils.webRoot() + '/images/knotdr/kd_impressive_drying_power.jpg'}" alt="Web image of a close-up of the power button">
+            </div>
+        </div>
+    </div>
+
+    <div class="productRow">
+        <div class="productItem productItemBGLeft">
+            <div class="productItemInner cyan">
+                <img src="${URLUtils.webRoot() + '/images/knotdr/kd_pump_it_up.jpg'}" alt="Web image of the volume pik in use">
+            </div>
+        </div>
+        <div class="productItem productItemNoBgRight">
+            <div class="productItemInner titleDesc">
+                <div class="productTitleWrapper cyan">
+                    <p class="productTitle  mar" role="heading" aria-level="4">PUMP IT UP</p>
+                </div>
+                    <p class="productDesc" style="margin-top:20px" role="heading" aria-level="5">Volume pik adds extra lift and body at the roots.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<iscomment>=========== table ======== </iscomment>
+
+<div class="toolsRow">
+			<div class="toolsInner">
+			
+				<div class="toolsItemWrapper">
+					<div class="toolsItem compareTitleWrapper">
+						<div class="compareTitle" style="min-width: 110px">
+								<span role="heading" aria-level="3">WHICH TOOL IS RIGHT FOR YOU?
+						</span></div>
+					</div>
+					<div class="toolsItem toolsItemImageWrapper">
+						<img src="${URLUtils.webRoot() + '/images/knotdr/kd_all_in_one_smoothing_dryer_brush.png'}" alt="Web image atop column 2: BC120 All-in-One Smoothing Brush">
+					</div>
+					<div class="toolsItem toolsItemImageWrapper withBrash">
+						<img class="smallBrush" style="left:-35px" src="${URLUtils.webRoot() + '/images/knotdr/kd_volume_pick_violet.png'}" alt="Web image atop column 3: BC116R All-in-One Dryer Brush">
+						<img src="${URLUtils.webRoot() + '/images/knotdr/kd_all_in_one_dryer_c_1.png'}" alt="Web image atop column 3: BC116R All-in-One Dryer Brush">
+					</div>
+				</div>
+				
+									<div class="toolsItemWrapper toolsComparisonWrapper">
+						<div class="comparisonItem comparisonTitle comparisonHeader">
+								<span role="heading" aria-level="5">Compare</span>
+								<span role="heading" aria-level="5">All-in-One Smoothing Dryer Brush</span>
+								<span role="heading" aria-level="5">All-in-One Dryer Brush</span>
+						</div>
+					</div>
+									<div class="toolsItemWrapper toolsComparisonWrapper">
+						<div class="comparisonItem comparisonTitle ">
+								<span>Dry + Style</span>
+								<span>Paddle Brush Head</span>
+								<span>Large Oval Brush Head</span>
+						</div>
+					</div>
+									<div class="toolsItemWrapper toolsComparisonWrapper">
+						<div class="comparisonItem comparisonTitle ">
+								<span>Perfect Design for all hair lengths</span>
+								<span>Cushioned Paddle: Perfect for all hair lengths</span>
+								<span>3" Diameter: Perfect for medium to long hair</span>
+						</div>
+					</div>
+									<div class="toolsItemWrapper toolsComparisonWrapper">
+						<div class="comparisonItem comparisonTitle ">
+								<span>bethePRO™</span>
+								<span>Ideal for smoothing and adding shine</span>
+								<span>Ideal for creating glam waves</span>
+						</div>
+					</div>
+							</div>
+    </div>
+    
+    
+    <iscomment> ================Videos=================== </iscomment>
+        <iscomment> <iframe class="ytplayer" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe> </iscomment>
+        <iscomment> <iframe class="videoImageCover" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe> </iscomment>
+
+        <div class="toolsRow videoSection">
+            <div class="toolsInner videoWrapper">
+                <div id="cs-video-0" class="videoItem">
+                    <iscomment> <img class="videoImageCover" alt="Web image of video for BC116" src="${URLUtils.webRoot() + '/images/knotdr/kd_video_cover_bc116-video.jpg'}">
+                    <button onclick="page.playYTVideo(this,event,'MRue1AVc2eM')" type="button" class="playVideoBtn" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true" role="button"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Play video for BC116 " aria-hidden="false" data-acsb-hidden="false"></span><span aria-hidden="true" data-acsb-hidden="true" data-acsb-force-hidden="true"></span></button> </iscomment>
+                    <iframe class="videoImageCover" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+                <div id="cs-video-1" class="videoItem">
+                    <iscomment> <img class="videoImageCover" alt="Web image of video for BC120" src="${URLUtils.webRoot() + '/images/knotdr/kd_video_cover_bc120-video.jpg'}">
+                    <button onclick="page.playYTVideo(this,event,'7ueveS5NcQQ')" type="button" class="playVideoBtn" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true" role="button"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Play video for BC120 " aria-hidden="false" data-acsb-hidden="false"></span><span aria-hidden="true" data-acsb-hidden="true" data-acsb-force-hidden="true"></span></button> </iscomment>
+                    <iframe class="videoImageCover" type="text/html" width="100%" height="100%" src="https://www.youtube.com/embed/m2DkxiVyyKY?modestbranding=1&amp;autoplay=0&amp;showinfo=0&amp;cc_lang_pref=en&amp;cc_load_policy=1&amp;enablejsapi=1&amp;rel=0&amp;origin=https://www.conair.com" frameborder="0" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+
+
+
+<iscomment> ===================Product and pricing section========== </iscomment>
+
+
+<div class="toolsRow pricingSection">
+    <div class="toolsInner pricingWrapper">
+
+        <div class="pricingHeader">
+            <div class="pricingHeaderInner">
+                <div class="stylingEssential">
+                        <span role="heading" aria-level="3">OUR STYLING ESSENTIALS</span>
+                </div>
+            </div>
+            <div class="comingSoon" role="heading" aria-level="5">
+                <span>NEW ITEMS COMING SOON</span>
+            </div>
+        </div>
+
+            <isslot id="knotProduct" context="global" description="" context-object="" preview-url="" />
+
+
+        <iscomment> <div class="pricingProducts">
+															
+								
+            <div class="pricingItem ">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about The Knot Dr.® All-In-One Dryer Brush | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-redundant-stop="true" aria-hidden="true" data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about The Knot Dr.® All-In-One Dryer Brush New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                        <img alt="Web image of product The Knot Dr.® All-In-One Dryer Brush" src="${URLUtils.webRoot() + '/images/knotdr/bc116-infiniti-pro-hot-air-styler-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$59.99</strong></span>
+                <span class="pricingItemTitle uppercase">The Knot Dr.® All-In-One Dryer Brush</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="BC116R" data-price="59.99" data-category="" data-title="The Knot Dr.® All-In-One Dryer Brush" data-image="bc116-infiniti-pro-hot-air-styler-main.png" aria-label="Add BC116R to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" role="button">
+                        Add to Cart												</a>
+                <a aria-label="Learn more about model number: BC116R" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about The Knot Dr.® All-In-One Dryer Brush" data-acsb-tooltip="Learn more about The Knot Dr.® All-In-One Dryer Brush | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window the knot dr all-in-one dryer brush by infinitipro by conair " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+            <div class="pricingItem ">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about The Knot Dr.® All-In-One Smoothing Dryer Brush | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-redundant-stop="true" aria-hidden="true" data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about The Knot Dr.® All-In-One Smoothing Dryer Brush New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product The Knot Dr.® All-In-One Smoothing Dryer Brush" src="${URLUtils.webRoot() + '/images/knotdr/1787-bc120-infinitipro-by-conair-with-the-knot-dr-all-in-one-smoothing-dryer-brush-image-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$49.99</strong></span>
+                <span class="pricingItemTitle uppercase">The Knot Dr.® All-In-One Smoothing Dryer Brush</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="BC120" data-price="49.99" data-category="" data-title="The Knot Dr.® All-In-One Smoothing Dryer Brush" data-image="1787-bc120-infinitipro-by-conair-with-the-knot-dr-all-in-one-smoothing-dryer-brush-image-main.png" aria-label="Add BC120 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: BC120" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about The Knot Dr.® All-In-One Smoothing Dryer Brush" data-acsb-tooltip="Learn more about The Knot Dr.® All-In-One Smoothing Dryer Brush | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window infinitipro with the knot dr. all-in-one smoothing dryer brush " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+            <div class="pricingItem ">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Volume Pik | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-redundant-stop="true" aria-hidden="true" data-acsb-hidden="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Volume Pik New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Volume Pik" src="${URLUtils.webRoot() + '/images/knotdr/vp01-image-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$7.99</strong></span>
+                <span class="pricingItemTitle uppercase">Volume Pik</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="VP01" data-price="7.99" data-category="" data-title="Volume Pik" data-image="vp01-image-main.png" aria-label="Add VP01 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: VP01" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Volume Pik" data-acsb-tooltip="Learn more about Volume Pik | New Window" data-acsb-clickable="true" data-acsb-navigable="true" data-acsb-now-navigable="true"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window infinitipro by conairâ® with the knot dr.â® volume pik " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+        
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Purple | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Brite Purple New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Brite Purple" src="${URLUtils.webRoot() + '/images/knotdr/95284-knotdoctorforconair-probrite-cushionppu-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$9.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Brite Purple</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95284" data-price="9.99" data-category="" data-title="Knot Dr.® Pro Brite Purple" data-image="95284-knotdoctorforconair-probrite-cushionppu-brush-main.png" aria-label="Add 95284 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95284" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Brite Purple" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Purple | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+                    
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Pink | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Brite Pink New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Brite Pink" src="${URLUtils.webRoot() + '/images/knotdr/95304-knotdoctorforconair-probrite-cushionp-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$9.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Brite Pink</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95304" data-price="9.99" data-category="" data-title="Knot Dr.® Pro Brite Pink" data-image="95304-knotdoctorforconair-probrite-cushionp-brush-main.png" aria-label="Add 95304 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95304" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Brite Pink" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Pink | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Blue | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Brite Blue New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Brite Blue" src="${URLUtils.webRoot() + '/images/knotdr/95306-knotdoctorforconair-probrite-cushionbl-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$9.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Brite Blue</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95306" data-price="9.99" data-category="" data-title="Knot Dr.® Pro Brite Blue" data-image="95306-knotdoctorforconair-probrite-cushionbl-brush-main.png" aria-label="Add 95306 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95306" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Brite Blue" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Blue | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Green | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Brite Green New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Brite Green" src="${URLUtils.webRoot() + '/images/knotdr/95307-knotdoctorforconair-probrite-cushiong-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$9.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Brite Green</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95307" data-price="9.99" data-category="" data-title="Knot Dr.® Pro Brite Green" data-image="95307-knotdoctorforconair-probrite-cushiong-brush-main.png" aria-label="Add 95307 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95307" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Brite Green" data-acsb-tooltip="Learn more about Knot Dr.® Pro Brite Green | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+                                    
+        
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Mini Blue | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Mini Blue New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Mini Blue" src="${URLUtils.webRoot() + '/images/knotdr/95297-knotdoctorforconair-promini-cushionpbl-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$7.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Mini Blue</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95297" data-price="7.99" data-category="" data-title="Knot Dr.® Pro Mini Blue" data-image="95297-knotdoctorforconair-promini-cushionpbl-brush-main.png" aria-label="Add 95297 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95297" href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Mini Blue" data-acsb-tooltip="Learn more about Knot Dr.® Pro Mini Blue | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+            
+                                    
+        
+            <div class="pricingItem productToHide" aria-hidden="true" data-acsb-hidden="true">
+                <a href="${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" data-acsb-tooltip="Learn more about Knot Dr.® Pro Mini Pink | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false">
+                    <span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" Learn more about Knot Dr.® Pro Mini Pink New Window " aria-hidden="false" data-acsb-hidden="false"></span>
+                    <img alt="Web image of product Knot Dr.® Pro Mini Pink" src="${URLUtils.webRoot() + '/images/knotdr/95308-knotdoctorforconair-promini-cushionp-brush-main.png'}">
+                    
+                </a>
+                <span class="priceTag"><strong>$7.99</strong></span>
+                <span class="pricingItemTitle uppercase">Knot Dr.® Pro Mini Pink</span>
+                    <a class="pricingItemAddToCart " onclick="conair.cartAdd(this,event);" data-model="95308" data-price="7.99" data-category="" data-title="Knot Dr.® Pro Mini Pink" data-image="95308-knotdoctorforconair-promini-cushionp-brush-main.png" aria-label="Add 95308 to Cart" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false" role="button">
+                            Add to Cart												</a>
+                <a aria-label="Learn more about model number: 95308" href"${URLUtils.url('Product-Show', 'pid', 'MAG-S-GRC' )}" target="_blank" title="Learn more about Knot Dr.® Pro Mini Pink" data-acsb-tooltip="Learn more about Knot Dr.® Pro Mini Pink | New Window" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="-1" data-acsb-now-navigable="false"><span class="acsb-sr-only" data-acsb-sr-only="true" data-acsb-force-visible="true" aria-label=" New Window " aria-hidden="false" data-acsb-hidden="false"></span>Learn More &gt;</a>
+            </div>
+    </div> </iscomment>
+        <a href="" type="button" id="viewLessOrMoreProducts" data-action="show" data-acsb-clickable="true" data-acsb-navigable="true" tabindex="0" data-acsb-now-navigable="true" role="button">View More</a>
+        <p class="pricingSectionNotice">*Note: The Volume Pik is included with purchase of the large oval All-in-One Dryer Brush and is also sold separately.</p>
+
+		</div>
+    </div>
+
+
+
+    <iscomment> SOCIAL BUZZ </iscomment>
+
+    <section id="mc-zoomph">
+        <div class="inner">
+            <h1 class="uppercaseText arf9dh7l3cj" data-acsb-title="true">Social Buzz</h1>
+        </div>
+        <iframe class="zoomph-widget" src="https://visuals.zoomph.com/Visuals/?id=GaL21IAP7a8UQ9hQFXJjDA_2_2" frameborder="0" scrolling="yes" aria-label="Zoomph Iframe" data-acsb-navigable="true" data-acsb-force-navigable="true" data-acsb-now-navigable="true"></iframe>
+    </section>
+
+</isdecorate>
